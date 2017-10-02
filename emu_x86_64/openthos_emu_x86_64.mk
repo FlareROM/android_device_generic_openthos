@@ -14,6 +14,8 @@
 # limitations under the License.
 #
 
+HOUDINI_PREINSTALL ?= intel
+
 $(call inherit-product,$(LOCAL_PATH)/../common/emu64.mk)
 
 # Overrides
