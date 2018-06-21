@@ -14,10 +14,10 @@
 # limitations under the License.
 #
 
-$(call inherit-product,$(LOCAL_PATH)/../common/emu64.mk)
+$(call inherit-product,$(LOCAL_PATH)/../common/emu32.mk)
 
 # Overrides
-PRODUCT_NAME := openthos_emu_arm64
+PRODUCT_NAME := lineage_emu_mips
 PRODUCT_BRAND := OPENTHOS
-PRODUCT_DEVICE := emu_arm64
-PRODUCT_MODEL := Generic OPENTHOS Emulator arm64
+PRODUCT_DEVICE := emu_mips
+PRODUCT_MODEL := Generic OPENTHOS Emulator mips

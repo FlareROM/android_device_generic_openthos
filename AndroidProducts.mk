@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/emu_arm/openthos_emu_arm.mk \
-    $(LOCAL_DIR)/emu_arm64/openthos_emu_arm64.mk \
-    $(LOCAL_DIR)/emu_mips/openthos_emu_mips.mk \
-    $(LOCAL_DIR)/emu_mips64/openthos_emu_mips64.mk \
-    $(LOCAL_DIR)/emu_x86/openthos_emu_x86.mk \
-    $(LOCAL_DIR)/emu_x86_64/openthos_emu_x86_64.mk \
+    $(LOCAL_DIR)/emu_arm/lineage_emu_arm.mk \
+    $(LOCAL_DIR)/emu_arm64/lineage_emu_arm64.mk \
+    $(LOCAL_DIR)/emu_mips/lineage_emu_mips.mk \
+    $(LOCAL_DIR)/emu_mips64/lineage_emu_mips64.mk \
+    $(LOCAL_DIR)/emu_x86/lineage_emu_x86.mk \
+    $(LOCAL_DIR)/emu_x86_64/lineage_emu_x86_64.mk \

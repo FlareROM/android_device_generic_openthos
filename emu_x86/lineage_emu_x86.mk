@@ -14,10 +14,12 @@
 # limitations under the License.
 #
 
+HOUDINI_PREINSTALL ?= intel
+
 $(call inherit-product,$(LOCAL_PATH)/../common/emu32.mk)
 
 # Overrides
-PRODUCT_NAME := openthos_emu_arm
+PRODUCT_NAME := lineage_emu_x86
 PRODUCT_BRAND := OPENTHOS
-PRODUCT_DEVICE := emu_arm
-PRODUCT_MODEL := Generic OPENTHOS Emulator arm
+PRODUCT_DEVICE := emu_x86
+PRODUCT_MODEL := Generic OPENTHOS Emulator x86

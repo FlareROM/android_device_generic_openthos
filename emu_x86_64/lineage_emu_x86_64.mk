@@ -16,10 +16,10 @@
 
 HOUDINI_PREINSTALL ?= intel
 
-$(call inherit-product,$(LOCAL_PATH)/../common/emu32.mk)
+$(call inherit-product,$(LOCAL_PATH)/../common/emu64.mk)
 
 # Overrides
-PRODUCT_NAME := openthos_emu_x86
+PRODUCT_NAME := lineage_emu_x86_64
 PRODUCT_BRAND := OPENTHOS
-PRODUCT_DEVICE := emu_x86
-PRODUCT_MODEL := Generic OPENTHOS Emulator x86
+PRODUCT_DEVICE := emu_x86_64
+PRODUCT_MODEL := Generic OPENTHOS Emulator x86_64
